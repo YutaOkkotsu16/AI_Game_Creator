@@ -1,0 +1,1 @@
+{"game_type": "platformer", "player_character": "A frog", "environment": "A swamp", "goal": "Collect flies and avoid alligators", "obstacles": ["alligators"], "mechanics": ["jumping"]}

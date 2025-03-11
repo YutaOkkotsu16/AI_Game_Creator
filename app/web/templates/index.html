@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Game Creator</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AI Game Creator</h1>
+        <p>Describe the game you want to create:</p>
+        
+        <form id="game-form">
+            <textarea id="game-description" rows="5" placeholder="E.g., A platformer game where a frog jumps through a swamp to collect flies and avoid alligators."></textarea>
+            <button type="submit">Create Game</button>
+        </form>
+        
+        <div id="result" class="hidden">
+            <h2>Game Created!</h2>
+            <p>Your game is running in a separate window. Here's what I understood:</p>
+            <pre id="game-params"></pre>
+        </div>
+        
+        <div id="error" class="hidden">
+            <h2>Error</h2>
+            <p id="error-message"></p>
+        </div>
+    </div>
+    
+    <script src="../static/script.js"></script>
+</body>
+</html>
+            
